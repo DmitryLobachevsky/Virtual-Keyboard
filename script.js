@@ -8,7 +8,7 @@ textarea.setAttribute('id', 'keyboard-textarea');
 textarea.setAttribute('class', 'use-keyboard-input');
 document.body.appendChild(textarea);
 
-const info = document.createElement('h2');
+const info = document.createElement('h3');
 info.setAttribute('class', 'information');
 document.body.appendChild(info);
 
