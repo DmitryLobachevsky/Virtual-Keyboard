@@ -93,3 +93,8 @@
   width: 80%;
   height: 30%;
 }
+
+h2{
+  position: relative;
+  left: 20%;
+}

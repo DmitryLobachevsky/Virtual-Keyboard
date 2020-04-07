@@ -8,6 +8,12 @@ textarea.setAttribute('id', 'keyboard-textarea');
 textarea.setAttribute('class', 'use-keyboard-input');
 document.body.appendChild(textarea);
 
+const info = document.createElement('h2');
+info.setAttribute('class', 'information');
+document.body.appendChild(info);
+
+info.innerHTML = 'Изменение раскладки Shift + Alt';
+
 
 const Keyboard = {
   elements: {
